@@ -1,0 +1,47 @@
+{
+  "name": "boiled-logger",
+  "version": "1.0.5",
+  "description": "A minimal console logger with callsite tracing, browser/node compatibility, and color support.",
+  "main": "dist/boiled-logger.js",
+  "types": "dist/boiled-logger.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/boiled-logger.js",
+      "require": "./dist/boiled-logger.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "console",
+    "debug",
+    "color",
+    "callsite",
+    "source-map",
+    "typescript",
+    "browser",
+    "node",
+    "universal",
+    "isomorphic",
+    "react",
+    "vite",
+    "nextjs",
+    "devtools",
+    "developer-tools",
+    "structured-log"
+  ],
+  "author": "문현",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}
